@@ -15,7 +15,7 @@ export function Products() {
 
     const [count_load, changeCountLoad] = useState(8)
     const [count_view, changeCountView] = useState(8)
-    const [view_created, changeView] = useState(true)
+    const [view_created, changeView] = useState(false)
     const [is_published, changeIsPublished] = useState(true)
 
     const dispatch = useDispatch()
